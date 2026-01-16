@@ -5,8 +5,10 @@ int main(){
  cin>>n;
  if(n>=300 && n<=460){
     cout<<"you won a Mackbook"<<endl;
-    if(n>=300 && n<=460){
+    if(n>=300 && n<=380){
         cout<<"Model:M1 Mac";}
+        else{
+            cout<<"Model:M2 Mac";}
  }
  else if(n>=200 && n<=280){
     cout<<"you won a Pack of Kurkure"<<endl;
