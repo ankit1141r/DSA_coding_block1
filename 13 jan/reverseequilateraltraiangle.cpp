@@ -10,7 +10,7 @@ int main() {
         for (int j = n; j >= i; j--) {
             cout << "* ";
         }
-        for (int j = n; j >= i; j--) {
+        for (int j = n-1; j >= i; j--) {
             cout << "* ";
         }
        for (int k = 1; k <=i-1; k++) {
