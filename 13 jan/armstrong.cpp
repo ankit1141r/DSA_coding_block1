@@ -22,7 +22,7 @@ while(n!=0){
         n=n/10;
     }
    //compare
-  if(og=sum){
+  if(og==sum){
         cout<<"Armstrong"<<endl;
     }
     else{
