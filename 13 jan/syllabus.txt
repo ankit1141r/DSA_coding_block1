@@ -1,0 +1,13 @@
+-----------syllabus-----------
+
+1. algorithm
+2. 
+3. basics of programming
+4. patterns
+5. functions
+6. maths
+7. array
+8. vector
+9. 2d array
+10. 2d vector
+11. char array & string
