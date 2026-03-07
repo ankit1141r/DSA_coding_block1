@@ -19,7 +19,7 @@ void truth(int arr[],int m){
 }
 int main() {
 	int m;
-    cin>>m;
+	cin>>m;
 	int arr[m];
 	for(int i=0;i<m;i++){
 		cin>>arr[i];
