@@ -1,6 +1,7 @@
-#include<iostream>
-
-
+#include <iostream>
+#include <numeric>   
+#include <algorithm> 
+#include <array>
 using namespace std;
 int main()
 {
@@ -31,11 +32,18 @@ if(count == n){
    cout<<"NO"<<endl;
 }
 else{
-    cout<<"YES"<<endl;
-
-for(int i=0; i<n; i++){
-cout<<arr[i]<<" ";
-}
+    int a=arr[0],gino=1,count2=0;
+   for(int i=1;i<n;i++){
+    gino++;
+   a=__gcd(a,arr[i]);
+   if(gino<a){
+    count2++;
+   }
+   }
+   if(a<n){
+    cout<<"YES";
+   }
+   else cout<<"NO";
 }
     return 0;
 }
