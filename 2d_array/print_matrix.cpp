@@ -2,8 +2,6 @@
 using namespace std;
 int main()
 {
-8
-9
     int matrix[2][3] = {
         {1, 2, 3},
         {4, 5, 6}
